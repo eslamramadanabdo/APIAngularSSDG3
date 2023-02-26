@@ -1,0 +1,28 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "Ahmed",
+      "age": 20,
+      "level": 2,
+      "GPA": 2.8
+    }
+  ],
+  "doctor": [
+    {
+      "id": 1,
+      "name": "Mohamed Alramly",
+      "cource": "Full Stack"
+    },
+    {
+      "id": 2,
+      "name": "Mohamed Elhossany ",
+      "cource": "Front End"
+    },
+    {
+      "name": "islam",
+      "cource": "Backend",
+      "id": 3
+    }
+  ]
+}

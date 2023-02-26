@@ -1,0 +1,23 @@
+<div class="container col-8 mt-5">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Cource</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of doctor" class="bg-tr">
+                <td>{{ item['id']}}</td>
+                <td>{{ item['name']}}</td>
+                <td>{{ item['cource']}}</td>
+                <td> 
+                    <i (click)="delete(item['id'])" class="fa-solid fa-trash-can text-danger mr-5"></i>
+                    <a routerLink="/doctor/edit/{{item['id']}}"><i class="fa-solid fa-pen-to-square text-info"></i> </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
